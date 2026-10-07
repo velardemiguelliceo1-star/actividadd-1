@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="WmPc`n|Z4P:E{TLp9;|," x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="j7n`n-39PGxx-^x}}X37"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_pause" id="_B$9U[#2`6b?8AJH;d*F"><value name="pause"><shadow type="timePicker" id="u]9hFK3.s[uq-/:Q*RdC"><field name="ms">500</field></shadow></value></block></next></block></statement></block><block type="device_forever" id="%W]_[-KL{Atg13M,Zdfl" x="454" y="17"></block><block type="device_button_event" id="X9`U3!`2a.oh6h)bfAhT" x="259" y="151"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="controls_repeat_ext" id="a;v%!#0ANK)ZBJ+Kne%]"><value name="TIMES"><shadow type="math_whole_number" id="Wft].,sW[##@6g.TdD1s"><field name="NUM">2</field></shadow></value><statement name="DO"><block type="device_show_leds" id="fo4MClz*@+0pQJPG}wx}"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="|wQtQ8JHUwxA9n@@Ocnx"><value name="pause"><shadow type="timePicker" id="XYc?{+Vij4o~}ici6#Oy"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="X5XD`]U$3JBad+:+7w-g"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="LgK}~3@@L8Uz^7p!;05i"><value name="pause"><shadow type="timePicker" id="j4VQ:?wqOoz+LV%:P,U("><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="Gik465QNrfo|FbZFJGfQ"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="music_playable_play" id="ZH!`+Q0w)aEW|f!#GV,s"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_tone_playable" id="4NyPUBOe:/!S^4aCGH#^"><value name="note"><shadow type="device_note" id="*$PEI*K?vV]F[2!o=B,V"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="@Sb2M?J]:G:RkJ4jPJ{+"><field name="fraction">BeatFraction.Whole</field></shadow></value></shadow></value><next><block type="device_pause" id="]NK!EE492=U6Lcl4.b2{"><value name="pause"><shadow type="timePicker" id="9M:{W0YAgYu3f.sbYDjK"><field name="ms">1000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>
